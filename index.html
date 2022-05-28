@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <img src="./image/alura.png" alt="Logo Alura">
+        </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" id="" cols="30" rows="6" placeholder="Digite seu texto!"></textarea>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+          <br>
+          <br>
+            <section>
+                <textarea class="mensagem" id="texto" cols="13" rows="8"></textarea>
+                <div class="botao-copiar">
+                  <br>
+                    <button class="btn-copia" onclick="btnCopiar()">
+                        Copiar
+                    </button>
+                </div>
+            </section>
+        </main>
+  <br>
+        <footer>
+            <div class="assinatura">
+              <p>Por: Natasha Silva, 2022</p>
+            </div>
+        </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
